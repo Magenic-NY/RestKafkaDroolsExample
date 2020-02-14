@@ -4,6 +4,7 @@ public class Base {
 
     private double price;
     private double percent;
+    private double result;
 
     public double getPrice() {
         return price;
@@ -19,5 +20,13 @@ public class Base {
 
     public void setPercent(double percent) {
         this.percent = percent;
+    }
+
+    public double getResult() {
+        return result;
+    }
+
+    public void setResult(double result) {
+        this.result = result;
     }
 }
